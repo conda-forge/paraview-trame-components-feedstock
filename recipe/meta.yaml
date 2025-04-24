@@ -1,5 +1,5 @@
 {% set name = "paraview-trame-components" %}
-{% set version = "0.13.3" %}
+{% set version = "0.13.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/paraview_trame_components-{{ version }}.tar.gz
-  sha256: 110ee75ab44f04e719a2b3b1bafbbc5a2d2b3e98866594bfebaf8e8c86ae03c9
+  sha256: 9f590f6b5aaa7b2e1033ad3fa457d4298da6123b3f71721e186bf205d67b8f97
 
 build:
   entry_points:
