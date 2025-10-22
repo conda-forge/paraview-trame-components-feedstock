@@ -1,5 +1,5 @@
 {% set name = "paraview-trame-components" %}
-{% set version = "0.14.2" %}
+{% set version = "0.15.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/paraview_trame_components-{{ version }}.tar.gz
-  sha256: 633a8746863f3ac2076c1b66e7d5ad3a1b5adcddcb4c4ff05509060ab3d3f517
+  sha256: c2204921e6a7711f75db5e311f1fa5197c2e7b10f3805a839a52de0ca3a4cc2a
 
 build:
   entry_points:
@@ -17,7 +17,7 @@ build:
     - ptc-state = ptc.apps.state_loader:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
