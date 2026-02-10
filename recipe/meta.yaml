@@ -30,6 +30,7 @@ requirements:
     - trame
     - trame-vtk
     - trame-vuetify
+    - trame-color-opacity-editor
     - trame-components
     - paraview
 
