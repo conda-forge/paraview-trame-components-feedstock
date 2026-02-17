@@ -1,5 +1,5 @@
 {% set name = "paraview-trame-components" %}
-{% set version = "0.15.0" %}
+{% set version = "0.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/paraview_trame_components-{{ version }}.tar.gz
-  sha256: c2204921e6a7711f75db5e311f1fa5197c2e7b10f3805a839a52de0ca3a4cc2a
+  sha256: 5044b0e7a17a9daf71f0c69165c884f7541d3f77b199b05b1db3fb92ae5c87d9
 
 build:
   entry_points:
@@ -30,6 +30,7 @@ requirements:
     - trame
     - trame-vtk
     - trame-vuetify
+    - trame-color-opacity-editor
     - trame-components
     - paraview
 
